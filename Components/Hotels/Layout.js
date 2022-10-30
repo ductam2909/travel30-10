@@ -1,17 +1,17 @@
 import React, { useEffect } from 'react'
-import Link from 'next/link'
+// import Link from 'next/link'
 import Cookies from 'universal-cookie'
-import { Icon } from '@iconify/react'
-import { useRouter } from 'next/router'
+// import { Icon } from '@iconify/react'
+// import { useRouter } from 'next/router'
 
 export default function Layout (props) {
   const cookies = new Cookies()
-  const router = useRouter()
+  // const router = useRouter()
   const tokenAdmin = cookies.get('tokenAdmin')
-  const logout = () => {
-    cookies.remove('tokenAdmin')
-    router.push('/login')
-  }
+  // const logout = () => {
+  //   cookies.remove('tokenAdmin')
+  //   router.push('/login')
+  // }
 
   useEffect(() => {
     if (!tokenAdmin) {

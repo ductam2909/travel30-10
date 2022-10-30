@@ -1,7 +1,7 @@
 
 import '../public/assets/css/style.scss'
 import 'react-toastify/dist/ReactToastify.css'
-import 'react-toastify/dist/ReactToastify.css'
+
 import { ToastContainer } from 'react-toastify'
 
 export default function MyApp ({ Component, pageProps }) {
@@ -13,5 +13,5 @@ export default function MyApp ({ Component, pageProps }) {
       {getLayout(<Component {...pageProps} />)}
       <ToastContainer />
     </>
-  ) 
+  )
 }
