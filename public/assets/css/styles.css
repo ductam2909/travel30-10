@@ -1,0 +1,1315 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source Code Pro');
+
+@font-face {
+  font-family: 'DIN';
+  src: url('../fonts/DIN\ Condensed\ Web.eot');
+  /* IE9 Compat Modes */
+  src: url('../fonts/DIN\ Condensed\ Web.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('../fonts/DIN\ Condensed\ Web.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/DIN\ Condensed\ Web.woff') format('woff'),
+    /* Pretty Modern Browsers */
+    url('../fonts/DIN\ Condensed\ Web.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('../fonts/DIN\ Condensed\ Web.svg#svgFontName') format('svg');
+  /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Source Code Pro';
+  src: url('../fonts/SourceCodePro-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'NINJA FIGHTER';
+  src: url('../fonts/ninja\ fighter.ttf');
+  src: url('../fonts/ninja\ fighter.ttf') format('truetype');
+}
+
+.menu {
+  height: 100px;
+}
+
+.header {
+  display: flex;
+}
+
+.mainmenu {
+  color: #fff;
+  display: flex;
+}
+
+.testtsss {}
+
+.mainmenu li {
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+.show-example {
+  display: inline-block;
+}
+
+.mainmenu li:hover {
+  color: #E8A929;
+}
+
+.mainmenu {
+  list-style: none;
+}
+
+.clsstpgle {
+  color: #fff;
+  padding-right: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+.clsstpgle2 {
+  margin: -30px;
+}
+
+.toggle {
+  padding: 10px;
+  text-align: right;
+  display: none;
+}
+
+.mainmenu .singin {
+  background-image: url(/assets/img/singing.jpg);
+  width: 100px;
+  height: 50px;
+  background-size: cover;
+  margin-top: -20px;
+}
+
+.mainmenu .singout {
+  background-image: url(/assets/img/singup.jpg);
+  width: 100px;
+  height: 50px;
+  background-size: cover;
+  margin-top: -20px;
+}
+
+.login {
+  display: none;
+}
+
+.banner-moondog {
+  font-size: 16px;
+  color: #E8A929;
+}
+
+.banner span {
+  font-size: 16px;
+  color: #E8A929;
+}
+
+.category__button {
+  background-image: url("/assets/img/button2.jpg");
+  background-size: cover;
+  height: 50px;
+  width: 200px;
+  border: none;
+}
+
+.category__title {
+  font-size: 40px;
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+.category__description {
+  width: 220px;
+  padding-bottom: 30px;
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.btnnext img {
+  width: 60px;
+  height: 40px;
+}
+
+.btnpre img {
+  width: 60px;
+  height: 40px;
+}
+
+
+
+@media only screen and (min-width: 800px) {
+
+  body {
+    background-image: url("/assets/img/background2.png");
+  }
+
+  .container {
+    padding: 40px;
+  }
+
+  nav {
+    position: absolute;
+    left: 600px;
+  }
+
+  .mainmenu img {
+    padding-right: 100px;
+  }
+
+  .mainmenu .singout:hover {
+    opacity: 0.8;
+  }
+
+  .mainmenu .singin:hover {
+    opacity: 0.8;
+  }
+
+  .banner {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+
+  .banner__text {
+    width: 50vw;
+    height: 50vh;
+    text-align: left;
+    margin-top: -50px;
+  }
+
+  .banner__fully {
+    color: #fff;
+    font-family: 'DIN';
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 100px;
+    font-style: normal;
+  }
+
+  .banner__kicka {
+    font-size: 40px;
+    color: #E8A929;
+    font-family: 'NINJA FIGHTER';
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 225px;
+    line-height: 200px;
+    text-shadow: 5px 12px 0px #5A3126;
+  }
+
+  .banner__ninja {
+    font-size: 60px;
+    color: #fff;
+    font-family: 'DIN';
+    font-weight: 400;
+    line-height: 100px;
+    font-style: normal;
+  }
+
+  p {
+    color: #fff;
+  }
+
+  .banner-artist {
+    position: absolute;
+    right: 100px;
+    top: 70vh;
+    color: #fff;
+  }
+
+  .category {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -20px;
+  }
+
+  .category__description {
+    width: 300px;
+    text-align: left;
+  }
+
+  .category-title {
+    font-family: 'NINJA FIGHTER';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 49px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+
+  .category__img-line {
+    padding-right: 50px;
+    padding-left: 20px;
+    height: 300px;
+    width: auto;
+  }
+
+  .category__button {
+    position: relative;
+    right: 30px;
+  }
+
+  .process {
+    position: relative;
+  }
+
+  .process__text {
+    position: absolute;
+    top: 370px;
+    right: -17vw;
+    transform: translate(-50%, -50%);
+    width: 550px;
+    text-align: right;
+    font-family: 'DIN';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 110px;
+    text-align: right;
+    text-transform: uppercase;
+  }
+
+  .clssdot {
+    display: none;
+  }
+
+  .process__find {
+    font-size: 25px;
+    color: #fff;
+    font-family: 'DIN';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 80px;
+  }
+
+  .process__chosen {
+    font-size: 120px;
+    color: #E8A929;
+    font-family: 'NINJA FIGHTER';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150px;
+    text-transform: uppercase;
+    color: #E8A929;
+    text-shadow: 5px 12px 0px #5A3126;
+  }
+
+  .process__item-top {
+    position: relative;
+    top: 10px;
+  }
+
+  .process__item-top__img {
+    position: relative;
+    top: 50px;
+  }
+
+  .process__item-top__text {
+    color: #fff;
+    position: absolute;
+    left: 200px;
+    width: 225px;
+  }
+
+  .process__item-right {
+    position: absolute;
+    top: 290px;
+    left: 35vw;
+  }
+
+  .process__item-right__img {
+    margin-left: 100px;
+  }
+
+  .process__item-right__text {
+    color: #fff;
+    width: 225px;
+  }
+
+  .process__itemleft {
+    position: relative;
+    top: 100px;
+  }
+
+  .process__itemleft__text {
+    position: absolute;
+    top: 300px;
+    left: 160px;
+    color: #fff;
+    width: 225px;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .process__item-bottom {
+    position: absolute;
+    bottom: -150px;
+    left: 600px;
+    width: 170px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .process__item-bottom__text {
+    position: absolute;
+    bottom: -80px;
+    left: 20px;
+    width: 225px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .process__item-bottom__title {
+    position: absolute;
+    bottom: -350px;
+    left: -540px;
+    color: #E8A929;
+    font-size: 205px;
+    font-family: 'NINJA FIGHTER';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 380px;
+    line-height: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 5px 15px 0px #5A3126;
+    transform: rotate(-11.13deg);
+  }
+
+  .process__item-bottom__img {
+    position: absolute;
+    bottom: -400px;
+    left: 160px;
+    max-width: 600px;
+    height: auto;
+  }
+
+  .slide__artists {
+    display: inline-block;
+    margin-top: 68%;
+    margin-left: 40px;
+    width: 90vw;
+  }
+
+  .slide__artists__iteam {
+    display: flex;
+  }
+
+  .slide__artists__iteam-left {
+    width: 212px;
+    background-size: cover;
+    border-radius: 5px;
+  }
+
+  .slide__artists__iteam-right {
+    width: 120px;
+    margin-left: 40px;
+    margin-right: 50px;
+  }
+
+  .user {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .user p {
+    margin-top: 6px;
+    margin-left: 10px;
+  }
+
+  .slide__artists__iteam-right img {
+    width: 128px;
+    height: 130px;
+    background-size: cover;
+    border-radius: 5px;
+    padding: 2px;
+  }
+
+  .btnnext {
+    position: absolute;
+    top: -70px;
+    right: -10px;
+    background: none;
+
+  }
+
+  .btnpre {
+    position: absolute;
+    top: -70px;
+    right: 60px;
+    ;
+    background: none;
+  }
+
+  .slide__develop {
+    position: relative;
+    top: 270px;
+    width: 90vw;
+  }
+
+  .slide__develop p {
+    width: 200px;
+  }
+
+  .develop__iteam_img {
+    width: 375px;
+    padding: 20px;
+  }
+
+  .slide__develop__iteam p {
+    width: 350px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  .slide__manager {
+    position: relative;
+    top: 550px;
+    width: 90vw;
+  }
+
+  .reason {
+    position: relative;
+    top: 400px;
+  }
+
+  .reason__title:nth-child(1) {
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 250px;
+    font-family: 'DIN';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .reason__title:nth-child(3) {
+    text-align: center;
+    text-transform: uppercase;
+    color: #E8A929;
+    font-size: 180px;
+    font-family: 'NINJA FIGHTER';
+    line-height: 150px;
+    text-shadow: 5px 10px 0px #5A3126
+  }
+
+  .reason__title:nth-child(2) {
+    text-align: center;
+    text-transform: uppercase;
+    color: #E8A929;
+    font-size: 110px;
+    font-family: 'NINJA FIGHTER';
+    line-height: 150px;
+    padding-top: 100px;
+    text-shadow: 5px 10px 0px #5A3126;
+  }
+
+  .reason__text {
+    position: relative;
+    top: -150px;
+    left: 40%;
+    text-align: center;
+    color: #fff;
+    width: 260px;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .reason__title:nth-child(2) {
+    position: absolute;
+    left: 40%;
+    top: 90px;
+  }
+
+  .reason__img {
+    display: flex;
+    margin-top: -400px;
+  }
+
+  .reason__img-left {
+    position: relative;
+    left: -80px;
+    top: 120px;
+  }
+
+  .reason__img-right {
+    position: relative;
+    top: 140px;
+    right: 0px;
+  }
+
+  .procedure {
+    position: relative;
+    top: 600px;
+    padding: 20px;
+  }
+
+  .procedure__text {
+    display: flex;
+    justify-content: center;
+  }
+
+  .procedure__img-ninja {
+    position: relative;
+    top: -300px;
+    left: 57%;
+  }
+
+  .procedure__text-question {
+    position: relative;
+    top: -120px;
+    left: -200px;
+    color: #fff;
+    font-size: 60px;
+    transform: rotate(-15deg);
+    font-family: 'DIN';
+    text-transform: uppercase;
+  }
+
+  .procedure__review {
+    background-image: url("/assets/img/img11.png");
+    width: 340px;
+    height: 520px;
+    background-size: cover;
+    padding-left: 50px;
+  }
+
+  .procedure__number {
+    font-size: 120px;
+    color: #000;
+    font-family: 'NINJA FIGHTER';
+    line-height: 150px;
+    text-align: left;
+  }
+
+  .procedure__title {
+    color: #000;
+    font-family: 'DIN';
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: left;
+  }
+
+  .procedure__description {
+    padding-top: 10px;
+    width: 250px;
+    color: #000;
+    text-align: left;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .procedure__review-center {
+    position: relative;
+    top: -100px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .procedure__review-right {
+    position: relative;
+    top: -170px;
+  }
+
+  .procedure__detail {
+    position: absolute;
+    margin-top: -120px;
+    left: 46%;
+  }
+
+  .procedure__detail-text {
+    width: 225px;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 20px;
+    text-transform: lowercase;
+  }
+
+  .procedure__detail-btn {
+    background-image: url("/assets/img/btn2.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 180px;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 900;
+    border: none;
+  }
+
+  .line3 {
+    display: none;
+  }
+
+  .post {
+    position: relative;
+    top: 800px;
+    height: 550px;
+    background-color: #E8A929;
+    margin-bottom: 200px;
+    width: 100%;
+  }
+
+  .post:before {
+    border-bottom: 150px solid #E8A929;
+    border-right: 98vw solid transparent;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    top: -150px;
+  }
+
+  .post__detail-img {
+    position: absolute;
+    right: 0px;
+    top: -450px;
+  }
+
+  .post__detail-textlower {
+    font-family: 'NINJA FIGHTER';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 160px;
+    line-height: 200px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 5px 10px 0px #5A3126;
+  }
+
+  .post__detail-textupper {
+    text-align: left;
+    font-family: 'DIN';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 10px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  .post__detail-text {
+    position: absolute;
+    left: 150px;
+    top: 0px;
+  }
+
+  .post__list {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+  }
+
+  .post__list_img-line {
+    padding-right: 70px;
+  }
+
+  .post__item-btn {
+    background-image: url("/assets/img/btn3.jpg");
+    background-size: cover;
+    height: 50px;
+    min-width: 170px;
+    position: relative;
+    right: 30px;
+    top: 10px;
+    border: none;
+    color: #E8A929;
+  }
+
+  .post__item-description {
+    font-family: 'Source Code Pro';
+    width: 240px;
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: lowercase;
+    color: #000000;
+  }
+
+  .post__item-title {
+    font-family: 'NINJA FIGHTER';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 40px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: left;
+  }
+
+  .post__item {
+    width: 270px;
+  }
+
+  .text_description-artists {
+    position: relative;
+    top: -25vh;
+    width: 375px;
+    margin: -50px;
+    left: 580px;
+    color: #000;
+    height: 80px;
+    font-weight: 700;
+    text-transform: lowercase;
+  }
+
+  #text_description-develop {
+    position: relative;
+    top: -20vh;
+    width: 350px;
+    margin: -35px;
+    left: 350px;
+    color: #000;
+    font-weight: 700;
+    text-transform: lowercase;
+  }
+
+  .text_description-manager {
+    position: relative;
+    top: -26vh;
+    width: 375px;
+    margin: -50px;
+    left: 630px;
+    color: #000;
+    height: 80px;
+    font-weight: 700;
+    text-transform: lowercase;
+  }
+
+}
+
+p {
+  color: #fff;
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+button {
+  border: none;
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: lowercase;
+}
+
+
+@media (max-width: 800px) {
+
+  body {
+    background: none;
+    background-color: #000;
+  }
+
+  .container {
+    text-align: center;
+    background: none;
+    background-color: #000;
+  }
+
+  .mainmenu .singin {
+    display: none;
+  }
+
+  .mainmenu .singout {
+    display: none;
+  }
+
+  .mainmenu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .toggle {
+    display: block;
+    position: absolute;
+    right: 0px;
+    padding: 20px;
+  }
+
+  .login {
+    display: block;
+    position: relative;
+    bottom: 40px;
+  }
+
+  .header img {
+    padding: 20px;
+  }
+
+  nav {
+    position: absolute;
+    top: 50px;
+    width: 95vw;
+    left: 10px;
+    display: none;
+    height: 250px;
+    background-color: #95afc0;
+  }
+
+  .banner img,
+  .process__item_bottom img {
+    width: 300px;
+  }
+
+  .banner__fully {
+    padding-top: 20px;
+    font-size: 60px;
+    color: #fff;
+    font-family: 'DIN';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .banner__kicka {
+    font-size: 120px;
+    color: #E8A929;
+    font-family: 'NINJA FIGHTER';
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120px;
+    text-shadow: 5px 12px 0px #5A3126;
+  }
+
+  .banner__ninja {
+    font-size: 15px;
+    color: #fff;
+    font-family: 'DIN';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+
+  .category img {
+    transform: rotate(100deg);
+    height: 250px;
+    width: 50px;
+    margin-top: -30px;
+    margin-bottom: -30px;
+  }
+
+  .category {
+    display: inline-block;
+    width: 300px;
+    margin-top: 50px;
+  }
+
+  .category__description {
+    display: inline-block;
+  }
+
+  .process__item_bottom h4 {
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .process__item-bottom__img {
+    max-width: 350px;
+    height: auto;
+  }
+
+  .clssdot {
+    color: #fff;
+  }
+
+  .slide__artists {
+    padding-left: 20px;
+    margin-top: 50px;
+  }
+
+  .slide__artists__iteam {
+    display: flex;
+    width: 30%;
+  }
+
+  .slide__artists__iteam-left img {
+    width: 200px;
+    background-size: cover;
+    border-radius: 5px;
+  }
+
+  .slide__artists__iteam-right {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .user {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .user p {
+    margin-top: 6px;
+    margin-left: 10px;
+  }
+
+  #demo {
+    display: none;
+  }
+
+  .slide__artists__iteam-right img {
+    width: 105px;
+    padding: 2px;
+    background-size: cover;
+    border-radius: 5px;
+  }
+
+  .btnnext {
+    position: absolute;
+    top: 280px;
+    left: 55vw;
+    transform: translate(-50%, -50%);
+    background: none;
+    border: none;
+
+  }
+
+  .btnpre {
+    position: absolute;
+    top: 280px;
+    right: 45vw;
+    transform: translate(-50%, -50%);
+    background: none;
+    border: none;
+  }
+
+  .process p {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: lowercase;
+  }
+
+  .process__itemtop__img {
+    position: relative;
+    top: -30px;
+  }
+
+  .process__item-top__text {
+    padding-top: 50px;
+  }
+
+  .process__itemleft {
+    position: relative;
+    top: -50px;
+  }
+
+  .process__item-right__img {
+    margin-top: -50px;
+    padding-bottom: 30px;
+  }
+
+  .process__itemright__text {
+    margin-top: 30px;
+  }
+
+  .slide__develop {
+    position: relative;
+    padding-left: 20px;
+  }
+
+  .p-feature {
+    margin-bottom: 20px;
+  }
+
+  .slide__develop__iteam img {
+    width: 80vw;
+    padding-right: 20px;
+  }
+
+  .slide__manager {
+    position: relative;
+    padding-left: 20px;
+    top: 100px;
+  }
+
+  .reason {
+    padding-top: 100px;
+  }
+
+  .reason__title:nth-child(2) {
+    display: inline-block;
+  }
+
+  .reason__title:nth-child(1) {
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 130px;
+    font-family: 'DIN';
+  }
+
+  .reason__title:nth-child(2) {
+    font-family: 'NINJA FIGHTER';
+    text-transform: uppercase;
+    color: #E8A929;
+    font-size: 80px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    text-shadow: 5px 10px 0px #5A3126;
+  }
+
+  .reason__title:nth-child(3) {
+    font-family: 'NINJA FIGHTER';
+    text-transform: uppercase;
+    color: #E8A929;
+    font-size: 150px;
+    text-shadow: 5px 10px 0px #5A3126;
+  }
+
+  .reason__img-left {
+    width: 50vw;
+    position: relative;
+    left: 20px;
+  }
+
+  .reason__img-right {
+    width: 50vw;
+    position: relative;
+    right: 20px;
+  }
+
+  .procedure__text-question {
+    position: relative;
+    top: 50px;
+    font-family: 'DIN Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 75px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transform: rotate(-16.96deg);
+  }
+
+  .procedure__text {
+    margin-top: 100px;
+  }
+
+  .procedure__review {
+    display: inline-block;
+    background-image: url("/assets/img/img11.png");
+    width: 320px;
+    height: 470px;
+    background-size: cover;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .procedure__number {
+    font-size: 120px;
+    color: #000;
+    font-family: 'NINJA FIGHTER';
+    line-height: 150px;
+    text-align: left;
+  }
+
+  .procedure__img-ninja {
+    max-width: 300px;
+  }
+
+  .procedure__title {
+    color: #000;
+    font-family: 'DIN';
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 20px;
+    text-align: left;
+  }
+
+  .procedure__description {
+    padding-top: 10px;
+    width: 251px;
+    color: #000;
+    text-align: left;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .line3 {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    position: relative;
+    top: -50px;
+  }
+
+  .procedure__detail {
+    display: inline-block;
+  }
+
+  .procedure__detail-text {
+    width: 250px;
+    padding-bottom: 20px;
+    margin-top: -30px;
+  }
+
+  .procedure__detail-btn {
+    background-image: url("/assets/img/btn2.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 180px;
+    border: none;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: lowercase;
+  }
+
+  .post {
+    position: relative;
+    top: 400px;
+    height: 1400px;
+    background-color: #E8A929;
+    margin-bottom: 200px;
+    width: 100vw;
+    text-align: center;
+  }
+
+  .post:before {
+    border-bottom: 150px solid #E8A929;
+    border-right: 100vw solid transparent;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    top: -149px;
+  }
+
+  .post__detail-img {
+    width: 300px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: -100px;
+  }
+
+  .post__list_img-line {
+    padding-right: 70px;
+    transform: rotate(100deg);
+    height: 300px;
+    margin-bottom: -120px;
+  }
+
+  .post__detail-textlower {
+    font-family: 'NINJA FIGHTER';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 5px 10px 0px #5A3126;
+  }
+
+  .post__detail-textupper {
+    font-family: 'DIN';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 80px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  .post__detail {
+    padding-top: 120px;
+    padding-bottom: 70px;
+  }
+
+  .post__item-btn {
+    background-image: url("/assets/img/btn3.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 200px;
+    margin-top: 10px;
+    border: none;
+    color: #E8A929;
+  }
+
+  .post__item-description {
+    width: 320px;
+    margin-left: 35px;
+    color: #000000;
+  }
+
+  .post__item-title {
+    padding-left: 10vw;
+    text-align: left;
+    font-family: 'NINJA FIGHTER';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 49px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+}

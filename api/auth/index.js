@@ -38,7 +38,6 @@ router.post('/signup', async (req, res) => {
     await user.save()
     return res.status(201).json({ msg: 'Đăng ký thành công' })
   } catch (err) {
-    console.error(err)
     res.status(500).json({ msg: 'Server error' })
   }
 })
@@ -56,7 +55,6 @@ router.get('/me', auth, async (req, res) => {
     }
     res.status(200).json({ user })
   } catch (err) {
-    console.error(err)
     res.status(500).json({ msg: 'Server error' })
   }
 })
@@ -94,7 +92,6 @@ router.post('/', async (req, res) => {
       res.status(200).json({ token })
     })
   } catch (err) {
-    console.error(err)
     res.status(500).json({ msg: 'Server error' })
   }
 })
@@ -121,7 +118,6 @@ router.put('/me', auth, upload.single('profilePic'), async (req, res) => {
 
     res.status(200).json(user)
   } catch (error) {
-    console.error(error)
     res.status(500).json({ msg: 'Server error' })
   }
 })
@@ -154,7 +150,6 @@ router.put('/password', auth, async (req, res) => {
 
     res.status(200).json({ msg: 'Password updated' })
   } catch (error) {
-    console.error(error)
     res.status(500).json({ msg: 'Server error' })
   }
 })
