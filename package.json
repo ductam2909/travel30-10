@@ -7,6 +7,7 @@
     "test": "standard"
   },
   "dependencies": {
+    "@iconify/react": "^4.0.0",
     "@sendgrid/mail": "^7.6.2",
     "axios": "^0.26.1",
     "bcryptjs": "^2.4.3",
@@ -28,6 +29,7 @@
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.29.0",
     "react-icons": "^4.3.1",
+    "react-loading": "^2.0.3",
     "react-toastify": "^8.2.0",
     "sass": "^1.55.0",
     "universal-cookie": "^4.0.4"
